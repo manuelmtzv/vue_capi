@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content {
+  @apply container w-[90%] mx-auto;
+}
+
+.input {
+  @apply border rounded-md;
+}
+
+.button {
+  @apply p-2 border rounded-md;
+}
